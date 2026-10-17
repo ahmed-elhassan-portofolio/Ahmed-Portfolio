@@ -1234,13 +1234,13 @@ button {
     <a href="https://ahmed-elhassan-portofolio.github.io/Ahmed-Portfolio/" class="logo" aria-label="Ahmed Elhassan portfolio home">AHMED<span>.</span></a>
 
     <ul class="nav-links" id="navLinks">
-      <li><a href="#home" class="">Home</a></li>
+      <li><a href="#home" class="active">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#design">Design</a></li>
       <li><a href="#videos">Videos</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#pricing">Packages</a></li>
-      <li><a href="#contact" class="active" aria-current="location">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
     <a class="btn nav-cta" href="#contact">Let's Talk <span class="arrow">↗</span></a>
@@ -1540,16 +1540,16 @@ button {
     </div>
 
     <div class="pricing-tabs" role="tablist" aria-label="Package categories">
-      <button class="pricing-tab active" type="button" role="tab" id="tab-video" aria-selected="true" aria-controls="packageGrid" data-category="video" tabindex="0">Video Editing</button>
-      <button class="pricing-tab" type="button" role="tab" id="tab-design" aria-selected="false" aria-controls="packageGrid" data-category="design" tabindex="-1">Graphic Design Kits</button>
-      <button class="pricing-tab" type="button" role="tab" id="tab-monthly" aria-selected="false" aria-controls="packageGrid" data-category="monthly" tabindex="-1">Monthly Content</button>
+      <button class="pricing-tab active" type="button" role="tab" id="tab-video" aria-selected="true" aria-controls="packageGrid" data-category="video">Video Editing</button>
+      <button class="pricing-tab" type="button" role="tab" id="tab-design" aria-selected="false" aria-controls="packageGrid" data-category="design">Graphic Design Kits</button>
+      <button class="pricing-tab" type="button" role="tab" id="tab-monthly" aria-selected="false" aria-controls="packageGrid" data-category="monthly">Monthly Content</button>
     </div>
 
     <div class="package-grid" id="packageGrid" aria-live="polite">
 
       <!-- VIDEO: 3 PACKAGES -->
 
-      <article class="package-card" data-package-category="video" aria-hidden="false" style="display: flex;">
+      <article class="package-card" data-package-category="video">
         <div class="package-badge">Essential</div>
         <h3>Starter Edit</h3>
         <p class="package-description">A clean,engaging edit for your next short-form video.</p>
@@ -1568,7 +1568,7 @@ button {
         <button class="btn btn-outline package-select" type="button" data-package="Starter Edit" data-category="video" data-price="$49">Choose Package ↗</button>
       </article>
 
-      <article class="package-card featured" data-package-category="video" aria-hidden="false" style="display: flex;">
+      <article class="package-card featured" data-package-category="video">
         <div class="package-badge">Popular Choice</div>
         <h3>Creator Pro</h3>
         <p class="package-description">More variety and motion for creators and growing brands.</p>
@@ -1587,7 +1587,7 @@ button {
         <button class="btn package-select" type="button" data-package="Creator Pro" data-category="video" data-price="$149">Choose Package ↗</button>
       </article>
 
-      <article class="package-card" data-package-category="video" aria-hidden="false" style="display: flex;">
+      <article class="package-card" data-package-category="video">
         <div class="package-badge">Premium</div>
         <h3>Brand Film</h3>
         <p class="package-description">A cinematic promotional video with a stronger visual identity.</p>
@@ -1608,7 +1608,7 @@ button {
 
       <!-- DESIGN: 3 PACKAGES -->
 
-      <article class="package-card" data-package-category="design" hidden="" aria-hidden="true" style="display: none;">
+      <article class="package-card" data-package-category="design" hidden="">
         <div class="package-badge">Essential</div>
         <h3>Social Starter</h3>
         <p class="package-description">A practical starter kit for a consistent social media presence.</p>
@@ -1626,7 +1626,7 @@ button {
         <button class="btn btn-outline package-select" type="button" data-package="Social Starter" data-category="design" data-price="$39">Choose Package ↗</button>
       </article>
 
-      <article class="package-card featured" data-package-category="design" hidden="" aria-hidden="true" style="display: none;">
+      <article class="package-card featured" data-package-category="design" hidden="">
         <div class="package-badge">Popular Choice</div>
         <h3>Brand Content Kit</h3>
         <p class="package-description">A coordinated set of visuals for a polished brand presence.</p>
@@ -1645,7 +1645,7 @@ button {
         <button class="btn package-select" type="button" data-package="Brand Content Kit" data-category="design" data-price="$99">Choose Package ↗</button>
       </article>
 
-      <article class="package-card" data-package-category="design" hidden="" aria-hidden="true" style="display: none;">
+      <article class="package-card" data-package-category="design" hidden="">
         <div class="package-badge">Premium</div>
         <h3>Signature Campaign Kit</h3>
         <p class="package-description">A broader collection of creative assets for a marketing campaign.</p>
@@ -1666,7 +1666,7 @@ button {
 
       <!-- MONTHLY: 3 PACKAGES -->
 
-      <article class="package-card" data-package-category="monthly" hidden="" aria-hidden="true" style="display: none;">
+      <article class="package-card" data-package-category="monthly" hidden="">
         <div class="package-badge">Essential</div>
         <h3>Essential Monthly</h3>
         <p class="package-description">A dependable monthly content foundation for your brand.</p>
@@ -1684,7 +1684,7 @@ button {
         <button class="btn btn-outline package-select" type="button" data-package="Essential Monthly" data-category="monthly" data-price="$199/month">Choose Package ↗</button>
       </article>
 
-      <article class="package-card featured" data-package-category="monthly" hidden="" aria-hidden="true" style="display: none;">
+      <article class="package-card featured" data-package-category="monthly" hidden="">
         <div class="package-badge">Popular Choice</div>
         <h3>Growth Monthly</h3>
         <p class="package-description">More creative output for brands building consistent momentum.</p>
@@ -1703,7 +1703,7 @@ button {
         <button class="btn package-select" type="button" data-package="Growth Monthly" data-category="monthly" data-price="$399/month">Choose Package ↗</button>
       </article>
 
-      <article class="package-card" data-package-category="monthly" hidden="" aria-hidden="true" style="display: none;">
+      <article class="package-card" data-package-category="monthly" hidden="">
         <div class="package-badge">Premium</div>
         <h3>Premium Monthly</h3>
         <p class="package-description">An expanded content plan for brands with ongoing campaign needs.</p>
@@ -1815,7 +1815,7 @@ button {
         </div>
 
         <button class="btn" id="contactSubmit" type="submit">Send Project Inquiry <span class="arrow">↗</span></button>
-        <p class="form-status" id="formStatus" role="status" aria-live="polite" hidden=""></p>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite" hidden></p>
         <p class="form-note">Your inquiry will open in WhatsApp with all project details filled in. Review the message and tap Send to deliver it to Ahmed.</p>
       </form>
     </div>
@@ -1827,7 +1827,7 @@ button {
 <footer class="footer">
   <div class="container footer-inner">
     <a href="https://ahmed-elhassan-portofolio.github.io/Ahmed-Portfolio/" class="logo" aria-label="Ahmed Elhassan portfolio home">AHMED<span>.</span></a>
-    <p class="footer-copy">© <span id="currentYear">2026</span> Ahmed Elhassan. All rights reserved.</p>
+    <p class="footer-copy">© <span id="currentYear"></span> Ahmed Elhassan. All rights reserved.</p>
     <div class="footer-links">
       <a href="https://www.behance.net/ahmedel-hassan1" target="_blank" rel="noopener noreferrer">Behance ↗</a>
       <a href="https://www.linkedin.com/in/ahmed-elhassan-988b60376" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
